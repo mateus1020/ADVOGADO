@@ -178,3 +178,62 @@ footer {
 footer p {
   font-size: 15px;
 }
+
+/* Responsividade para dispositivos móveis (largura máxima de 768px) */
+@media (max-width: 768px) {
+  .hero {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .logo img {
+    max-width: 80px;
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-content h3 {
+    font-size: 1rem;
+  }
+
+  .btn {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+
+  .servicos {
+    padding: 20px;
+  }
+
+  .servicos-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .servico-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .servico-card h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .servico-card p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .contato-info p {
+    font-size: 0.9rem;
+  }
+}
